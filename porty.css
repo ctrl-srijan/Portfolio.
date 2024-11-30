@@ -1,0 +1,70 @@
+body {
+    font-family: Futura PT;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 5px;
+}
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: rgb(38, 158, 218);
+    margin: 1px;
+}
+.section {
+    margin-bottom: 30px;
+    animation: slideUp 0.5s ease-in-out;
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+li {
+    background: #e9f7fd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+    
+}
+li:hover {
+    background: #d2eefb;
+    transform: scale(1.05);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
