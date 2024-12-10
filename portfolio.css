@@ -18,8 +18,8 @@ header img {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 300px;
-    height: 300px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 2px solid #ecf0f1;
 }
@@ -106,12 +106,13 @@ footer {
     margin-bottom: 10px;
 }
 .footer-section ul li a {
-    color: #ffffff;
+    color: #4a90e2;
     text-decoration: none;
     transition: color 0.3s;
 }
 .footer-section ul li a:hover {
     color: #d2eefb;
+    background-color: #4a90e2;
 }
 .contact-form input, .contact-form textarea {
     width: 100%;
